@@ -471,8 +471,8 @@ ytdl_handler = CommandHandler(BotCommands.YtdlCommand, ytdl,
                                     filters=authfilter | CustomFilters.authorized_user)
 ytdl_zip_handler = CommandHandler(BotCommands.YtdlZipCommand, ytdlZip,
                                     filters=authfilter | CustomFilters.authorized_user)
-ytdl_leech_handler = CommandHandler(BotCommands.YtdlLeechCommand, ytdlleech,
-                                    filters=authfilter | CustomFilters.authorized_user)
+ytdl_leech_handler = CommandHandler(BotCommands.YtdlLeechCommand, ytdlleech
+                                   )
 ytdl_zip_leech_handler = CommandHandler(BotCommands.YtdlZipLeechCommand, ytdlZipleech,
                                     filters=authfilter | CustomFilters.authorized_user)
 
